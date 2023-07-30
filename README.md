@@ -1,42 +1,34 @@
-# Advanced Image Processing Techniques
+# Advanced Image Processing Techniques using Machine Learning and Computer Vision
 
-This repository contains Python scripts for various advanced image processing techniques, focusing on image quantization using K-means clustering and feature extraction using Gabor filters.
+This repository hosts a set of advanced image processing techniques developed in Python, specifically focusing on image quantization and feature extraction through K-means clustering and Gabor filters respectively.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Contributing](#contributing)
-5. [License](#license)
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Installation and Dependencies](#installation-and-dependencies)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
-## Introduction
+## Overview
 
-The project provides a comprehensive toolkit for image processing tasks. It focuses on two main aspects:
+The primary objective of this project is to provide a comprehensive suite of image processing functionalities. The main areas of focus include:
 
-- **Image Quantization using K-Means Clustering:** An unsupervised machine learning algorithm used to partition an input image into different clusters based on pixel intensities in the color space.
-  
-- **Feature Extraction using Gabor Filters:** A linear filter used for texture analysis, which essentially analyzes whether there are any specific frequency content in the image in specific directions in a localized region around the point or region of analysis.
+- **Image Quantization using K-Means Clustering:** This unsupervised machine learning technique is utilized to partition an image into distinct clusters based on pixel intensities within the LAB color space. The objective is to reduce the color palette of the image while preserving the overall visual perception and structure.
 
-## Installation
+- **Feature Extraction using Gabor Filters:** Gabor filters, a group of linear filters used extensively in texture analysis, are applied in this project. These filters examine the presence of specific frequency content in the image across particular directions within a localized area around the point or region of analysis.
 
-### Dependencies
+## Installation and Dependencies
 
-This project is implemented in Python and requires the following libraries:
+This project is implemented using Python and depends on several packages within the machine learning and computer vision domains:
 
 - scikit-learn
 - scikit-image
 - NumPy
 - OpenCV
 
-To install these dependencies, run the following command:
+To install these dependencies, execute the following command:
 
 ```bash
 pip install -r requirements.txt
-
-Usage
-To use the functions in this script, import them into your Python environment:
-
-```bash
-from functions import image_quantization, gabor_filtering
-You can then call the functions on your image data.
