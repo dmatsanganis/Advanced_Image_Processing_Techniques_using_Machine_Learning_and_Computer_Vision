@@ -31,4 +31,4 @@ This project is implemented using Python and depends on several packages within 
 To install these dependencies, execute the following command:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Application's Requirements.txt
