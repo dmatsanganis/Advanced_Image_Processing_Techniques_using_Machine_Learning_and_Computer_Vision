@@ -1,22 +1,42 @@
-# Image_Processing-Colorization_of_a_Grayscale_Image_using_Machine_Learning
+# Advanced Image Processing Techniques
 
-## Application's Requirements
-cycler==0.10.0
-decorator==4.4.2
-imageio==2.9.0
-joblib==1.0.0
-kiwisolver==1.3.1
-matplotlib==3.3.3
-networkx==2.5
-numpy==1.19.5
-opencv-contrib-python==3.4.2.16
-Pillow==8.1.0
-pyparsing==2.4.7
-python-dateutil==2.8.1
-PyWavelets==1.1.1
-scikit-image==0.18.1
-scikit-learn==0.24.1
-scipy==1.6.0
-six==1.15.0 
-threadpoolctl==2.1.0
-tifffile==2021.1.14
+This repository contains Python scripts for various advanced image processing techniques, focusing on image quantization using K-means clustering and feature extraction using Gabor filters.
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [License](#license)
+
+## Introduction
+
+The project provides a comprehensive toolkit for image processing tasks. It focuses on two main aspects:
+
+- **Image Quantization using K-Means Clustering:** An unsupervised machine learning algorithm used to partition an input image into different clusters based on pixel intensities in the color space.
+  
+- **Feature Extraction using Gabor Filters:** A linear filter used for texture analysis, which essentially analyzes whether there are any specific frequency content in the image in specific directions in a localized region around the point or region of analysis.
+
+## Installation
+
+### Dependencies
+
+This project is implemented in Python and requires the following libraries:
+
+- scikit-learn
+- scikit-image
+- NumPy
+- OpenCV
+
+To install these dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+
+Usage
+To use the functions in this script, import them into your Python environment:
+
+```bash
+from functions import image_quantization, gabor_filtering
+You can then call the functions on your image data.
