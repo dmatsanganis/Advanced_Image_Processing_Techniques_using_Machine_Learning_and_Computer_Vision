@@ -37,7 +37,8 @@ This project has been implemented using Python and requires several libraries re
 - NumPy
 - OpenCV
 
-Usage Instructions
+## Usage Instructions
+
 After successfully installing all the dependencies, you can import the functions in this script into your Python environment. After importing, you can call these functions on your image data as needed.
 
 
