@@ -11,7 +11,7 @@ This repository contains a suite of Python-based techniques for advanced image p
 5. [Contributors](#contributors)
 
 ## Project Overview
-
+ 
 The primary objective of this project is to offer a robust set of image processing functions. The key areas of focus include:
 
 - **Image Quantization using K-Means Clustering:** This technique uses an unsupervised machine learning algorithm to divide an image into distinct clusters based on pixel intensities in the LAB color space. The goal is to minimize the color palette of the image while preserving the overall visual structure and perception.
